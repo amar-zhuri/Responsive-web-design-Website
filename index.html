@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Amar Zhuri – Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="72" tabindex="0">
+
+  <!-- Navbar -->
+  <nav id="mainNav" class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="#about">Amar Zhuri</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#academics">Academics</a></li>
+          <li class="nav-item"><a class="nav-link" href="#favourites">Favourites</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Services Section -->
+  <section id="services" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Services</h2>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 text-center">
+            <div class="card-body">
+              <h5 class="card-title">Web Development</h5>
+              <p class="card-text">Responsive websites with HTML, CSS, JavaScript & Bootstrap.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 text-center">
+            <div class="card-body">
+              <h5 class="card-title">Mobile Apps</h5>
+              <p class="card-text">Android & React Native applications, clean UI/UX.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 text-center">
+            <div class="card-body">
+              <h5 class="card-title">AI & ML Prototypes</h5>
+              <p class="card-text">Minimax games, reinforcement learning demos in Python/Unity.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 text-center">
+            <div class="card-body">
+              <h5 class="card-title">IoT & Embedded</h5>
+              <p class="card-text">Secure firmware updates, C programming on limited-resource devices.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 text-center">
+            <div class="card-body">
+              <h5 class="card-title">Cybersecurity</h5>
+              <p class="card-text">Vulnerability assessments, threat modeling & risk mitigation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Portfolio</h2>
+      <div class="row g-4">
+        <!-- Tic-Tac-Toe -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="Tic-Tac-Toe">
+            <div class="card-body">
+              <h5 class="card-title">AI Tic-Tac-Toe Game</h5>
+              <p class="card-text">JavaFX vs AI (Minimax), MVC, persistent leaderboard. <a href="https://github.com/amar-zhuri/Tic-Tac-Toe" target="_blank">GitHub</a></p>
+            </div>
+          </div>
+        </div>
+        <!-- Weather App -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="Weather App">
+            <div class="card-body">
+              <h5 class="card-title">Weather App</h5>
+              <p class="card-text">Android app with GPS, OpenWeather API, RecyclerView UI. <a href="https://github.com/amar-zhuri/WeatherApp" target="_blank">GitHub</a></p>
+            </div>
+          </div>
+        </div>
+        <!-- Domino Game -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="Domino Game">
+            <div class="card-body">
+              <h5 class="card-title">Two-Player Domino</h5>
+              <p class="card-text">JavaFX & console, JSON state, MVC patterns, JUnit-tested. <a href="https://github.com/amar-zhuri/Two-Players-Domino-Game" target="_blank">GitHub</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">About Me</h2>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <p>Hello! I’m Amar Zhuri, a Computer Science graduate from the University of Debrecen (GPA 4.53/5.0). Over the past years I’ve interned as a Software Engineer at Search-Lab (secure IoT firmware updates), .NET Developer at StarLabs, and worked as an IT Technician upgrading Wi-Fi networks. I love tackling embedded systems challenges as much as crafting user-friendly interfaces. In my free time I contribute to open source, mentor peers, and keep experimenting with new technologies.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Academics Section -->
+  <section id="academics" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Academics</h2>
+      <ul class="timeline">
+        <li>
+          <h5>2022 – 2025: BSc in Computer Science</h5>
+          <p>University of Debrecen, GPA 4.53/5.0. Academic Merit Scholarship, Erasmus+ at TU Vienna. Core coursework: Data Structures, OS, Algorithms, Database Systems, Web & Mobile Development, AI & VR.</p>
+        </li>
+       
+      </ul>
+    </div>
+  </section>
+
+  <!-- Favourites Section -->
+  <section id="favourites" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Favourites</h2>
+      <div class="row">
+        <div class="col-sm-6 col-lg-4 mb-3">
+          <h5>Activities</h5>
+          <ul>
+            <li>Hackathons & coding jams</li>
+            <li>Hiking & outdoor photography</li>
+            <li>Board games & chess</li>
+          </ul>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-3">
+          <h5>Food</h5>
+          <ul>
+            <li>Neapolitan pizza</li>
+            <li>Sushi & sashimi</li>
+            <li>Dark chocolate desserts</li>
+          </ul>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-3">
+          <h5>Sports</h5>
+          <ul>
+            <li>Soccer (midfield)</li>
+            <li>Basketball pick-up games</li>
+            <li>Table tennis tournaments</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4 bg-dark text-light">
+    <div class="container text-center">
+      <p class="mb-1">&copy; 2025 Amar Zhuri</p>
+      <p class="mb-0">
+        <a href="mailto:amarzhurix@gmail.com" class="text-light me-3">Email</a>
+        <a href="https://github.com/amar-zhuri" class="text-light me-3" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/amar-zhuri/" class="text-light" target="_blank">LinkedIn</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
